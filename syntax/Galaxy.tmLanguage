@@ -5,6 +5,7 @@
     <key>fileTypes</key>
     <array>
         <string>galaxy</string>
+        <string>galaxy++</string>
     </array>
     <key>firstLineMatch</key>
     <string>-[*]-( Mode:)? Galaxy -[*]-</string>
@@ -24,6 +25,12 @@
         <dict>
             <key>include</key>
             <string>#comments</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\btypedef\b</string>
+            <key>name</key>
+            <string>keyword.typedef.galaxy</string>
         </dict>
         <dict>
             <key>match</key>
